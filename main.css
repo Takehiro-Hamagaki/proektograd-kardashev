@@ -73,3 +73,13 @@ a:hover{
     color: blue;
     font-family: 'Geostar Fill', cursive;
 }
+
+.okno{
+    width: 200px;
+    height: 150px;
+    border: 2px solid green;
+    display: block;
+
+
+
+}
