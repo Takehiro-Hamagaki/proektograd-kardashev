@@ -1,0 +1,21 @@
+@keyframes sdvig {
+    from{left: 0px; top; 0px}
+    to{left: 500px; top: 300px;}
+    
+}
+
+
+
+
+
+
+
+.cube{
+background-color: red;
+width: 100px;
+height: 100px;
+position: absolute;
+left: 50px;
+top: 50px;
+animation: sdvig 2s ease-in 2s infinite
+}
