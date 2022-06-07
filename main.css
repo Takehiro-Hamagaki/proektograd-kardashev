@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Geostar&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Geostar+Fill&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Geostar&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Geostar+Fill&display=swap');
 h1{
     color: whitesmoke;
     font-size: 100px;
@@ -8,66 +8,54 @@ h1{
 
 p{
     color: whitesmoke;
-    font-size: 40px;
+    font-size: 40px;    
 }
 a{
-color: whitesmoke;
-font-size: 75px;
-text-align: right;
-display: block;
-text-decoration: none
+    color: whitesmoke;
+    font-size: 75px;
+    text-align: right;
+    display: block;
+    text-decoration: none
 }
 
 body{ 
-font-family: 'Ubuntu', sans-serif;
-background: url(/phon.jpg);background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    background: url(/phon.jpg);background-size: cover;
 }
 .zagolovok{
-font-family: 'Geostar', cursive;
-color: #8000ff;
+    font-family: 'Geostar', cursive;
+    color: #8000ff;
 }
 
 .zagolovok:hover{
     color: blue;
 }
 .quesion{
-font-family: 'Geostar', cursive;  
+    font-family: 'Geostar', cursive;  
 }
 a{
-    font-family: 'Geostar', cursive;   
-}
-.task1{
-font-family: 'Geostar', cursive;  
-color: crimson; 
-font-size: 40px;
-font-weight: bold;
-}
-.task2{
-font-weight: 400;
-    font-family: 'Ubuntu', sans-serif;
- color: black;   
- font-size: 30px;
+
 }
 .task3{
-font-family: 'Ubuntu', sans-serif;
-font-size:  20px;
-font-weight: bold;
-color: blue;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:  20px;
+    font-weight: bold;
+    color: blue;
 }
 .Diary{
- text-align: center;
- font-size: 75px;   
+    text-align: center;
+    font-size: 75px;   
 }
 .zagolovok{
-text-align: center; 
+    text-align: center; 
 }
 .quesion{
-text-align: center;
+    text-align: center;
 
 }
 .Diary{
-text-align: right;
-text-decoration: none;
+    text-align: right;
+    text-decoration: none;
 }
 a:hover{
     color: blue;
@@ -75,11 +63,16 @@ a:hover{
 }
 
 .okno{
-    width: 200px;
-    height: 150px;
-    border: 2px solid green;
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    border-radius: 10px;
     display: block;
+}
+.okno2{
 
-
-
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    margin: 60px 60px 60px 60px;
 }
